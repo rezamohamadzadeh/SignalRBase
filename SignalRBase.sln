@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRBase", "SignalRBase\SignalRBase.csproj", "{C901EF2F-8360-40D7-A04F-B36F42E09420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C901EF2F-8360-40D7-A04F-B36F42E09420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C901EF2F-8360-40D7-A04F-B36F42E09420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C901EF2F-8360-40D7-A04F-B36F42E09420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C901EF2F-8360-40D7-A04F-B36F42E09420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86B18C10-FBE1-46E2-8C54-B4772D06DF96}
+	EndGlobalSection
+EndGlobal
