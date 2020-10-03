@@ -29,7 +29,7 @@ namespace SignalRBase
                     builder
                         .AllowAnyMethod()
                         .AllowAnyHeader()
-                        .WithOrigins("http://localhost:59042", "http://localhost:59066", "http://645499051687.ngrok.io")
+                        .WithOrigins("http://localhost:59042", "http://localhost:59066", "https://localhost:44300")
                         .AllowCredentials();
                 });
 

@@ -17,18 +17,6 @@ namespace SignalRBase.Controllers
             _hubContext = hubContext;
         }
 
-        [HttpGet]
-        public IActionResult Get()
-        {
-            return Ok();
-        }
-
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
-        {
-            return Ok(id);
-        }
-
         [HttpPost]
         public IActionResult Post(NotificationDto model)
         {
@@ -40,16 +28,5 @@ namespace SignalRBase.Controllers
             return Ok(model);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] string value)
-        {
-            return Ok();
-        }
-
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
-        {
-            return Ok();
-        }
     }
 }
